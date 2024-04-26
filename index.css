@@ -3,7 +3,6 @@ body{
     background-image: url(background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 1000px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',Verdana, sans-serif;
 }
 
@@ -63,7 +62,7 @@ ul {
   .container3{
     background-color: wheat;
     width: 70%;
-    display: flex;
+    display: block;
     float: right;
     border-radius: 8px;
   }
@@ -71,4 +70,18 @@ ul {
   .container3 h1{
     text-align: center;
     font-size: 25px;
+  }
+
+  .container3 p{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .footer{
+    display: flex;
+    width: 70%;
+    background-color: wheat;
+    margin-top: 30px;
+    border-radius: 8px;
+    float: right;
   }
